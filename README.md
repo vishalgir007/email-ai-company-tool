@@ -65,6 +65,44 @@ Open `Output/results.xlsx` in Excel to see your enhanced data:
 | alex@unknown-startup.com | unknown-startup | Unknown Startup Inc | Technology |
 | admin@github.com | github | GitHub | Technology |
 
+## 🌐 Modern Web Interface (Streamlit)
+
+For a modern, user-friendly web interface, use our Streamlit version:
+
+### **Quick Launch:**
+```bash
+# Install Streamlit
+pip install streamlit
+
+# Launch web interface
+streamlit run streamlit_app.py
+```
+
+### **Access Your App:**
+```
+🌐 Local: http://localhost:8501
+📱 Mobile-friendly responsive design
+🎨 Professional dashboard interface
+```
+
+### **Streamlit Features:**
+- ✅ **Drag & Drop File Upload** - No command line needed
+- ✅ **Real-time Progress** - Watch processing in action  
+- ✅ **Interactive Results** - Browse and filter data
+- ✅ **Instant Downloads** - Excel/CSV export with one click
+- ✅ **Mobile Responsive** - Works on any device
+- ✅ **Professional UI** - Perfect for demos and interviews
+
+### **One-Click Cloud Deployment:**
+Deploy your own instance to Streamlit Cloud:
+1. Fork the GitHub repository
+2. Visit [share.streamlit.io](https://share.streamlit.io)
+3. Connect repository: `vishalgir007/email-ai-company-tool`
+4. Set main file: `streamlit_app.py`
+5. Deploy! 🚀
+
+**Live Demo:** [Your Streamlit app will be here]
+
 ## 📊 Expected Output Examples
 
 ### Example 1: Well-Known Companies
