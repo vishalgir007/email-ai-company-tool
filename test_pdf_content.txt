@@ -1,0 +1,24 @@
+Test Email Data
+
+Contact Information:
+alice.smith@google.com - Alice Smith
+bob.johnson@samsung.com - Bob Johnson  
+info@acmeinc.com - Acme Inc Contact
+support@globexcorp.net - Globex Support
+contact@initech.org - Initech Contact
+hello@umbrella.co - Umbrella Corp
+sales@wayneenterprises.io - Wayne Enterprises
+admin@starkindustries.tech - Stark Industries
+
+Employee Directory:
+Name: Carol Williams
+Email: carol.williams@nestle.com
+Department: Marketing
+
+Name: David Brown  
+Email: david.brown@toyota.com
+Department: Engineering
+
+Name: Emily Davis
+Email: emily.davis@siemens.com
+Department: Operations
