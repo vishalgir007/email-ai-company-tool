@@ -60,6 +60,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def main():
+    # Initialize session state to prevent duplicate elements
+    if 'initialized' not in st.session_state:
+        st.session_state.initialized = True
+        st.session_state.processed_file = None
+        st.session_state.results = None
+    
     # Header
     st.markdown('<h1 class="main-header">📧 Email AI Company Tool</h1>', unsafe_allow_html=True)
     st.markdown('<div style="text-align: center; margin-bottom: 2rem;"><span class="success-badge">100% Success Rate Guaranteed</span></div>', unsafe_allow_html=True)
@@ -105,7 +111,8 @@ def main():
         uploaded_file = st.file_uploader(
             "Choose a file",
             type=['csv', 'xlsx', 'xls', 'pdf', 'docx', 'json', 'xml', 'txt'],
-            help="Upload a file containing email addresses for processing"
+            help="Upload a file containing email addresses for processing",
+            key="main_file_uploader"
         )
         st.markdown('</div>', unsafe_allow_html=True)
         
@@ -116,10 +123,11 @@ def main():
         processing_mode = st.selectbox(
             "Processing Mode",
             ["Enhanced (Web Search)", "Fast (Local Only)", "Full (Maximum Accuracy)"],
-            help="Choose processing speed vs accuracy trade-off"
+            help="Choose processing speed vs accuracy trade-off",
+            key="processing_mode_selector"
         )
         
-        show_progress = st.checkbox("Show Progress Details", value=True)
+        show_progress = st.checkbox("Show Progress Details", value=True, key="show_progress_checkbox")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Processing section
@@ -137,7 +145,7 @@ def main():
             st.info(f"🔧 **Type**: {file_type}")
             
         # Process button
-        if st.button("🚀 Process File", type="primary", use_container_width=True):
+        if st.button("🚀 Process File", type="primary", use_container_width=True, key="process_file_button"):
             process_file(uploaded_file, processing_mode, show_progress)
 
 def process_file(uploaded_file, processing_mode, show_progress):
@@ -256,7 +264,8 @@ def process_file(uploaded_file, processing_mode, show_progress):
                 data=excel_buffer,
                 file_name=f"email_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                type="primary"
+                type="primary",
+                key="excel_download_button"
             )
             
         with col2:
@@ -266,7 +275,8 @@ def process_file(uploaded_file, processing_mode, show_progress):
                 label="📄 Download CSV File", 
                 data=csv_buffer,
                 file_name=f"email_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
-                mime="text/csv"
+                mime="text/csv",
+                key="csv_download_button"
             )
             
         # Sector distribution
@@ -458,7 +468,8 @@ def show_about():
 page = st.sidebar.selectbox(
     "Navigate", 
     ["🏠 Main Tool", "📋 About", "📊 Documentation"],
-    index=0
+    index=0,
+    key="navigation_selectbox"
 )
 
 if page == "🏠 Main Tool":
