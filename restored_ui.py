@@ -321,7 +321,7 @@ def fast_process_emails(emails_df):
     })
     
     # Rename the duplicate company column to match your format
-    final_df.columns = ['name', 'company', 'email', 'domain', 'company', 'sector']
+    final_df.columns = ['name', 'company', 'email', 'domain', 'company_name', 'sector']
     
     return final_df
 
@@ -363,8 +363,8 @@ def enhanced_process_emails(emails_df):
                 domain_mask = result_df['domain'] == domain
                 result_df.loc[domain_mask, 'company'] = company
                 result_df.loc[domain_mask, 'sector'] = sector
-                # Also update the duplicate company column
-                result_df.iloc[:, 4] = result_df['company']  # Column 4 is the duplicate company column
+                # Also update the company_name column
+                result_df.loc[domain_mask, 'company_name'] = result_df.loc[domain_mask, 'company']
         
         # Final fallback: For any remaining unknowns, generate intelligent names
         still_unknown_mask = (result_df['company'] == 'Unknown')
@@ -379,8 +379,8 @@ def enhanced_process_emails(emails_df):
                 
                 result_df.loc[idx, 'company'] = company_name
                 result_df.loc[idx, 'sector'] = sector_name
-                # Also update the duplicate company column
-                result_df.iloc[idx, 4] = company_name
+                # Also update the company_name column
+                result_df.loc[idx, 'company_name'] = company_name
     
     return result_df
 
@@ -522,7 +522,7 @@ def format_output_dataframe(processed_df, original_df):
     })
     
     # Rename columns to match your exact format (including duplicate company column)
-    final_df.columns = ['name', 'company', 'email', 'domain', 'company', 'sector']
+    final_df.columns = ['name', 'company', 'email', 'domain', 'company_name', 'sector']
     
     return final_df
 
