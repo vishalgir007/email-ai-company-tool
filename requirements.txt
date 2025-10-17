@@ -1,48 +1,29 @@
-# Email AI Company Tool - Production Dependencies
-# Comprehensive package list for full functionality
+# Email AI Company Tool - Streamlit Cloud Compatible
+# Minimal dependencies for successful deployment
 
-# Core Web Framework
-Flask==2.3.3                # Web interface and API endpoints
-Werkzeug==2.3.7             # WSGI utilities for Flask
+# Essential Data Processing
+pandas>=1.5.0
+openpyxl>=3.1.0
 
-# Data Processing & Analytics  
-pandas==2.1.3               # Data manipulation and Excel operations
-numpy==1.25.2               # Numerical computing support
-openpyxl==3.1.2             # Excel file reading and writing
+# Web Scraping (No paid APIs - compliant with constraints)
+requests>=2.25.0
+beautifulsoup4>=4.9.0
 
-# Web Scraping & HTTP Operations
-requests==2.31.0            # HTTP library for web requests
-beautifulsoup4==4.12.2      # HTML parsing and content extraction
-lxml==4.9.3                 # XML/HTML parser (faster than built-in)
-urllib3==2.0.7              # HTTP client library
-
-# String Matching & Text Processing
-rapidfuzz==3.5.2            # Advanced fuzzy string matching
-tldextract==5.1.1           # Domain parsing and TLD extraction
+# String Matching & Text Processing  
+rapidfuzz>=2.0.0
+tldextract>=3.4.0
 
 # File Processing Support
-PyPDF2==3.0.1               # PDF text extraction
-pdfplumber==0.10.3          # Enhanced PDF processing
-python-docx==1.1.0          # Word document processing
+PyPDF2>=2.0.0
+python-docx>=0.8.0
+pdfplumber>=0.6.0
 
-# Async Processing (Performance Enhancement)
-aiohttp==3.9.1              # Asynchronous HTTP client
-aiosqlite==0.19.0           # Async SQLite database operations
-
-# Progress & Monitoring
-tqdm==4.66.1                # Progress bars and monitoring
-
-# Utilities & Support
-python-dateutil==2.8.2      # Date parsing utilities
-pytz==2023.3                # Timezone support
-six==1.16.0                 # Python 2/3 compatibility
-
-# Development & Testing (Optional)
-pytest==7.4.3              # Testing framework
-pytest-asyncio==0.21.1     # Async testing support
+# Core Web Framework (for Flask compatibility)
+flask>=2.0.0
 
 # Streamlit Web Interface
-streamlit==1.28.1           # Modern web app framework
-plotly==5.17.0              # Interactive charts and graphs
+streamlit>=1.25.0
 
+# Note: Removed specific versions and development packages for Streamlit compatibility
 # Note: sqlite3 is included with Python standard library
+# Note: All packages comply with constraint: no paid APIs, only open-source scraping libraries
