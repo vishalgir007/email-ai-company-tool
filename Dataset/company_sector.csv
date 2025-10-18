@@ -1,0 +1,246 @@
+domain,company,sector
+google,Google,Technology
+gmail,Gmail,Technology
+infosys,Infosys,IT Services
+icicibank,ICICI Bank,Finance
+accenture,Accenture,Consulting
+tcs,Tata Consultancy Services,IT Services
+wipro,Wipro,IT Services
+apple,Apple,Technology
+microsoft,Microsoft,Technology
+amazon,Amazon,E-commerce
+facebook,Facebook,Technology
+meta,Meta,Technology
+instagram,Instagram,Social Media
+twitter,Twitter,Social Media
+linkedin,LinkedIn,Social Media
+netflix,Netflix,Media
+spotify,Spotify,Media
+uber,Uber,Transportation
+airbnb,Airbnb,Hospitality
+tesla,Tesla,Automotive
+shopify,Shopify,E-commerce
+github,GitHub,Technology
+stackoverflow,Stack Overflow,Technology
+adobe,Adobe,Technology
+oracle,Oracle,Technology
+salesforce,Salesforce,Technology
+zoom,Zoom,Technology
+slack,Slack,Technology
+dropbox,Dropbox,Technology
+acmeinc,Acme Inc,Manufacturing
+globexcorp,Globex Corp,Conglomerate
+initech,Initech,Technology
+umbrella,Umbrella Corporation,Pharmaceuticals
+wayneenterprises,Wayne Enterprises,Conglomerate
+starkindustries,Stark Industries,Technology
+wonkafoods,Wonka Foods,Food & Beverage
+cyberdyne,Cyberdyne Systems,Technology
+tyrellcorp,Tyrell Corporation,Technology
+soyland,Soylent Corporation,Food & Beverage
+oscillgroup,Oscill Group,Consulting
+oceanicventures,Oceanic Ventures,Investment
+purpleco,Purple Co,Technology
+nexagen,Nexagen,Biotechnology
+zenithlabs,Zenith Labs,Research & Development
+greenleafstores,Greenleaf Stores,Retail
+bluehorizon,Blue Horizon,Maritime
+cryptobankservices,Crypto Bank Services,Finance
+spacetechsolutions,SpaceTech Solutions,Aerospace
+nanotechinnovations,NanoTech Innovations,Technology
+yahoo,Yahoo,Technology
+hotmail,Hotmail,Technology
+outlook,Outlook,Technology
+live,Microsoft Live,Technology
+msn,MSN,Technology
+icloud,iCloud,Technology
+me,Apple iCloud,Technology
+mac,Apple,Technology
+ibm,IBM,Technology
+intel,Intel,Technology
+hp,HP,Technology
+dell,Dell,Technology
+cisco,Cisco,Technology
+vmware,VMware,Technology
+adobe,Adobe,Technology
+autodesk,Autodesk,Technology
+nvidia,NVIDIA,Technology
+amd,AMD,Technology
+qualcomm,Qualcomm,Technology
+broadcom,Broadcom,Technology
+paypal,PayPal,Finance
+visa,Visa,Finance
+mastercard,Mastercard,Finance
+amex,American Express,Finance
+discover,Discover,Finance
+chase,JPMorgan Chase,Finance
+wellsfargo,Wells Fargo,Finance
+bankofamerica,Bank of America,Finance
+citibank,Citibank,Finance
+goldmansachs,Goldman Sachs,Finance
+morganstanley,Morgan Stanley,Finance
+blackrock,BlackRock,Finance
+vanguard,Vanguard,Finance
+fidelity,Fidelity,Finance
+schwab,Charles Schwab,Finance
+tdameritrade,TD Ameritrade,Finance
+etrade,E*TRADE,Finance
+robinhood,Robinhood,Finance
+coinbase,Coinbase,Finance
+walmart,Walmart,Retail
+target,Target,Retail
+costco,Costco,Retail
+homedepot,Home Depot,Retail
+lowes,Lowe's,Retail
+bestbuy,Best Buy,Retail
+macys,Macy's,Retail
+nordstrom,Nordstrom,Retail
+gap,Gap,Retail
+nike,Nike,Retail
+adidas,Adidas,Retail
+puma,Puma,Retail
+underarmour,Under Armour,Retail
+lululemon,Lululemon,Retail
+zara,Zara,Retail
+hm,H&M,Retail
+uniqlo,Uniqlo,Retail
+starbucks,Starbucks,Food & Beverage
+mcdonalds,McDonald's,Food & Beverage
+subway,Subway,Food & Beverage
+kfc,KFC,Food & Beverage
+pizzahut,Pizza Hut,Food & Beverage
+dominos,Domino's,Food & Beverage
+burgerking,Burger King,Food & Beverage
+tacobell,Taco Bell,Food & Beverage
+chipotle,Chipotle,Food & Beverage
+panera,Panera Bread,Food & Beverage
+cocacola,Coca-Cola,Food & Beverage
+pepsi,PepsiCo,Food & Beverage
+nestle,Nestlé,Food & Beverage
+unilever,Unilever,Consumer Goods
+pg,Procter & Gamble,Consumer Goods
+jnj,Johnson & Johnson,Healthcare
+pfizer,Pfizer,Healthcare
+merck,Merck,Healthcare
+abbvie,AbbVie,Healthcare
+bristol,Bristol Myers Squibb,Healthcare
+novartis,Novartis,Healthcare
+roche,Roche,Healthcare
+gsk,GlaxoSmithKline,Healthcare
+sanofi,Sanofi,Healthcare
+amgen,Amgen,Healthcare
+gilead,Gilead Sciences,Healthcare
+biogen,Biogen,Healthcare
+moderna,Moderna,Healthcare
+biontech,BioNTech,Healthcare
+regeneron,Regeneron,Healthcare
+illumina,Illumina,Healthcare
+medtronic,Medtronic,Healthcare
+abbott,Abbott,Healthcare
+danaher,Danaher,Healthcare
+thermofisher,Thermo Fisher,Healthcare
+agilent,Agilent,Healthcare
+waters,Waters Corporation,Healthcare
+perkinelmer,PerkinElmer,Healthcare
+ford,Ford,Automotive
+gm,General Motors,Automotive
+chrysler,Chrysler,Automotive
+toyota,Toyota,Automotive
+honda,Honda,Automotive
+nissan,Nissan,Automotive
+hyundai,Hyundai,Automotive
+kia,Kia,Automotive
+bmw,BMW,Automotive
+mercedes,Mercedes-Benz,Automotive
+audi,Audi,Automotive
+volkswagen,Volkswagen,Automotive
+porsche,Porsche,Automotive
+ferrari,Ferrari,Automotive
+lamborghini,Lamborghini,Automotive
+bentley,Bentley,Automotive
+rollsroyce,Rolls-Royce,Automotive
+maserati,Maserati,Automotive
+tesla,Tesla,Automotive
+rivian,Rivian,Automotive
+lucid,Lucid Motors,Automotive
+nio,NIO,Automotive
+xpeng,XPeng,Automotive
+li,Li Auto,Automotive
+byd,BYD,Automotive
+exxon,ExxonMobil,Energy
+chevron,Chevron,Energy
+shell,Shell,Energy
+bp,BP,Energy
+totalenergies,TotalEnergies,Energy
+conocophillips,ConocoPhillips,Energy
+marathon,Marathon Petroleum,Energy
+valero,Valero,Energy
+phillips66,Phillips 66,Energy
+eog,EOG Resources,Energy
+pioneer,Pioneer Natural Resources,Energy
+schlumberger,Schlumberger,Energy
+halliburton,Halliburton,Energy
+bakerhughes,Baker Hughes,Energy
+kinder,Kinder Morgan,Energy
+enbridge,Enbridge,Energy
+tc,TC Energy,Energy
+enterprise,Enterprise Products,Energy
+plains,Plains All American,Energy
+boeing,Boeing,Aerospace
+airbus,Airbus,Aerospace
+lockheed,Lockheed Martin,Aerospace
+northrop,Northrop Grumman,Aerospace
+raytheon,Raytheon,Aerospace
+generaldynamics,General Dynamics,Aerospace
+spacex,SpaceX,Aerospace
+blueorigin,Blue Origin,Aerospace
+virgin,Virgin Galactic,Aerospace
+ge,General Electric,Conglomerate
+honeywell,Honeywell,Conglomerate
+siemens,Siemens,Conglomerate
+philips,Philips,Conglomerate
+3m,3M,Conglomerate
+caterpillar,Caterpillar,Manufacturing
+deere,John Deere,Manufacturing
+emerson,Emerson,Manufacturing
+parker,Parker Hannifin,Manufacturing
+rockwell,Rockwell Automation,Manufacturing
+schneider,Schneider Electric,Manufacturing
+abb,ABB,Manufacturing
+fanuc,Fanuc,Manufacturing
+kuka,KUKA,Manufacturing
+atlas,Atlas Copco,Manufacturing
+sandvik,Sandvik,Manufacturing
+volvo,Volvo,Manufacturing
+scania,Scania,Manufacturing
+paccar,PACCAR,Manufacturing
+navistar,Navistar,Manufacturing
+cummins,Cummins,Manufacturing
+wabtec,Wabtec,Manufacturing
+trn,Trinity Industries,Manufacturing
+greenbrier,Greenbrier,Manufacturing
+verizon,Verizon,Telecommunications
+att,AT&T,Telecommunications
+tmobile,T-Mobile,Telecommunications
+sprint,Sprint,Telecommunications
+comcast,Comcast,Telecommunications
+charter,Charter Communications,Telecommunications
+cox,Cox Communications,Telecommunications
+altice,Altice,Telecommunications
+dish,Dish Network,Telecommunications
+directv,DIRECTV,Telecommunications
+fedex,FedEx,Logistics
+ups,UPS,Logistics
+dhl,DHL,Logistics
+usps,USPS,Logistics
+jb,J.B. Hunt,Logistics
+schneider,Schneider National,Logistics
+swift,Swift Transportation,Logistics
+werner,Werner Enterprises,Logistics
+landstar,Landstar,Logistics
+odfl,Old Dominion,Logistics
+saia,Saia,Logistics
+xpo,XPO Logistics,Logistics
+ch,C.H. Robinson,Logistics
+expeditors,Expeditors,Logistics
+kuehne,Kuehne + Nagel,Logistics

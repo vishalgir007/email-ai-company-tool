@@ -1,0 +1,18 @@
+{
+  "Finance": ["bank", "finance", "insurance", "investment", "fund", "credit", "loan", "financial", "banking", "payment", "fintech"],
+  "Technology": ["tech", "technology", "software", "internet", "cloud", "data", "ai", "mobile", "network", "computing", "digital", "platform", "app", "web", "online", "cyber", "electronic", "programming", "development", "coding", "algorithm", "database", "system", "computer", "IT", "information technology"],
+  "Consulting": ["consult", "consulting", "advisory", "consultant", "advice", "strategy", "management consulting"],
+  "Healthcare": ["hospital", "clinic", "health", "pharma", "medical", "healthcare", "medicine", "pharmaceutical", "biotech", "life sciences", "wellness"],
+  "E-commerce": ["ecommerce", "e-commerce", "online shopping", "marketplace", "retail online", "shopping", "commerce", "store online"],
+  "Social Media": ["social", "social media", "social network", "networking", "community", "sharing", "connect"],
+  "Media": ["media", "news", "broadcast", "publishing", "entertainment", "streaming", "video", "audio", "content", "journalism"],
+  "Transportation": ["transport", "transportation", "logistics", "shipping", "delivery", "mobility", "ride", "travel", "automotive", "vehicle"],
+  "Hospitality": ["hotel", "hospitality", "restaurant", "cafe", "accommodation", "lodging", "travel", "tourism", "booking"],
+  "Automotive": ["automotive", "car", "vehicle", "automobile", "electric vehicle", "tesla", "motors"],
+  "Manufacturing": ["manufactur", "factory", "industrial", "production", "assembly", "fabrication"],
+  "Energy": ["energy", "oil", "gas", "power", "renewable", "solar", "electric", "utility"],
+  "Education": ["education", "university", "school", "academy", "learning", "training", "course", "educational"],
+  "Gaming": ["gaming", "game", "games", "entertainment", "video games", "esports"],
+  "Real Estate": ["real estate", "property", "housing", "rental", "realty"],
+  "Security": ["security", "cybersecurity", "protection", "safety", "surveillance"]
+}

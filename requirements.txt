@@ -1,0 +1,29 @@
+# Email AI Company Tool - Streamlit Cloud Compatible
+# Minimal dependencies for successful deployment
+
+# Essential Data Processing
+pandas>=1.5.0
+openpyxl>=3.1.0
+
+# Web Scraping (No paid APIs - compliant with constraints)
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+
+# String Matching & Text Processing  
+rapidfuzz>=2.0.0
+tldextract>=3.4.0
+
+# File Processing Support
+PyPDF2>=2.0.0
+python-docx>=0.8.0
+pdfplumber>=0.6.0
+
+# Core Web Framework (for Flask compatibility)
+flask>=2.0.0
+
+# Streamlit Web Interface
+streamlit>=1.25.0
+
+# Note: Removed specific versions and development packages for Streamlit compatibility
+# Note: sqlite3 is included with Python standard library
+# Note: All packages comply with constraint: no paid APIs, only open-source scraping libraries

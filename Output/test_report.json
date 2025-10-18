@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-12 23:37:57",
+  "summary": {
+    "total_tests": 8,
+    "passed": 0,
+    "failed": 8,
+    "success_rate": 0.0,
+    "total_time": 8.772448778152466
+  },
+  "detailed_results": [
+    {
+      "name": "Error Recovery System",
+      "success": false,
+      "duration": 0.14772987365722656,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\test_error_recovery.py\", line 4, in <module>\n    import pytest\nModuleNotFoundError: No module named 'pytest'\n"
+    },
+    {
+      "name": "Basic Functionality",
+      "success": false,
+      "duration": 1.15435791015625,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\main.py\", line 7, in <module>\n    import tldextract\nModuleNotFoundError: No module named 'tldextract'\n"
+    },
+    {
+      "name": "Async Performance",
+      "success": false,
+      "duration": 1.082507610321045,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\main.py\", line 7, in <module>\n    import tldextract\nModuleNotFoundError: No module named 'tldextract'\n"
+    },
+    {
+      "name": "Edge Cases",
+      "success": false,
+      "duration": 1.152174711227417,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\main.py\", line 7, in <module>\n    import tldextract\nModuleNotFoundError: No module named 'tldextract'\n"
+    },
+    {
+      "name": "Conservative Mode",
+      "success": false,
+      "duration": 1.1352965831756592,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\main.py\", line 7, in <module>\n    import tldextract\nModuleNotFoundError: No module named 'tldextract'\n"
+    },
+    {
+      "name": "Unit Tests (pytest)",
+      "success": false,
+      "duration": 0.20917439460754395,
+      "output": "C:\\Users\\wwwvi\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe: No module named pytest\n"
+    },
+    {
+      "name": "Error Recovery Demo",
+      "success": false,
+      "duration": 1.30118989944458,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\demo_error_recovery.py\", line 7, in <module>\n    from main import process_emails\n  File \"C:\\Users\\wwwvi\\Downloads"
+    },
+    {
+      "name": "Performance Benchmarks",
+      "success": false,
+      "duration": 2.590017795562744,
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\wwwvi\\Downloads\\Email_Company_Tool\\benchmarks\\benchmark_resolvers.py\", line 17, in <module>\n    spec_m.loader.exec_module(main)\n  File \"<frozen impo"
+    }
+  ]
+}

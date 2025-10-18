@@ -1,0 +1,108 @@
+domain,company,sector
+google.com,Google,Technology
+gmail.com,Gmail,Technology
+microsoft.com,Microsoft,Technology
+apple.com,Apple,Technology
+amazon.com,Amazon,E-commerce
+facebook.com,Facebook,Technology
+meta.com,Meta,Technology
+instagram.com,Instagram,Technology
+twitter.com,Twitter,Technology
+linkedin.com,LinkedIn,Technology
+github.com,GitHub,Technology
+adobe.com,Adobe,Technology
+oracle.com,Oracle,Technology
+salesforce.com,Salesforce,Technology
+zoom.us,Zoom,Technology
+slack.com,Slack,Technology
+dropbox.com,Dropbox,Technology
+netflix.com,Netflix,Media & Entertainment
+spotify.com,Spotify,Media & Entertainment
+youtube.com,YouTube,Media & Entertainment
+intel.com,Intel,Technology
+nvidia.com,NVIDIA,Technology
+amd.com,AMD,Technology
+ibm.com,IBM,Technology
+hp.com,HP Inc,Technology
+dell.com,Dell,Technology
+shopify.com,Shopify,E-commerce
+ebay.com,eBay,E-commerce
+alibaba.com,Alibaba,E-commerce
+walmart.com,Walmart,Retail
+target.com,Target,Retail
+paypal.com,PayPal,Finance
+visa.com,Visa,Finance
+mastercard.com,Mastercard,Finance
+jpmorgan.com,JPMorgan Chase,Finance
+goldmansachs.com,Goldman Sachs,Finance
+citi.com,Citigroup,Finance
+uber.com,Uber,Transportation
+tesla.com,Tesla,Automotive
+ford.com,Ford,Automotive
+toyota.com,Toyota,Automotive
+bmw.com,BMW,Automotive
+mercedes-benz.com,Mercedes-Benz,Automotive
+airbnb.com,Airbnb,Hospitality
+booking.com,Booking.com,Hospitality
+expedia.com,Expedia,Travel
+marriott.com,Marriott,Hospitality
+hilton.com,Hilton,Hospitality
+pfizer.com,Pfizer,Healthcare
+johnsonandjohnson.com,Johnson & Johnson,Healthcare
+merck.com,Merck,Healthcare
+novartis.com,Novartis,Healthcare
+roche.com,Roche,Healthcare
+mckinsey.com,McKinsey & Company,Consulting
+deloitte.com,Deloitte,Consulting
+pwc.com,PwC,Consulting
+ey.com,EY,Consulting
+kpmg.com,KPMG,Consulting
+accenture.com,Accenture,Consulting
+coca-cola.com,The Coca-Cola Company,Food & Beverage
+pepsi.com,PepsiCo,Food & Beverage
+nestle.com,Nestlé,Food & Beverage
+unilever.com,Unilever,Consumer Goods
+pg.com,Procter & Gamble,Consumer Goods
+loreal.com,L'Oréal,Consumer Goods
+nike.com,Nike,Consumer Goods
+adidas.com,Adidas,Consumer Goods
+samsung.com,Samsung,Technology
+sony.com,Sony,Technology
+ge.com,General Electric,Manufacturing
+siemens.com,Siemens,Manufacturing
+3m.com,3M,Manufacturing
+boeing.com,Boeing,Aerospace
+lockheed.com,Lockheed Martin,Aerospace
+exxonmobil.com,ExxonMobil,Energy
+shell.com,Shell,Energy
+bp.com,BP,Energy
+chevron.com,Chevron,Energy
+conocophillips.com,ConocoPhillips,Energy
+verizon.com,Verizon,Telecommunications
+att.com,AT&T,Telecommunications
+tmobile.com,T-Mobile,Telecommunications
+comcast.com,Comcast,Telecommunications
+disney.com,Disney,Media & Entertainment
+warnermedia.com,Warner Media,Media & Entertainment
+paramount.com,Paramount,Media & Entertainment
+nbc.com,NBCUniversal,Media & Entertainment
+cnn.com,CNN,Media & Entertainment
+bbc.com,BBC,Media & Entertainment
+reuters.com,Reuters,Media & Entertainment
+bloomberg.com,Bloomberg,Media & Entertainment
+wsj.com,Wall Street Journal,Media & Entertainment
+nytimes.com,New York Times,Media & Entertainment
+harvard.edu,Harvard University,Education
+mit.edu,MIT,Education
+stanford.edu,Stanford University,Education
+berkeley.edu,UC Berkeley,Education
+oxford.ac.uk,Oxford University,Education
+cambridge.ac.uk,Cambridge University,Education
+yale.edu,Yale University,Education
+princeton.edu,Princeton University,Education
+redcross.org,Red Cross,Non-profit
+unicef.org,UNICEF,Non-profit
+who.int,World Health Organization,Non-profit
+worldbank.org,World Bank,Finance
+imf.org,IMF,Finance
+un.org,United Nations,Government
